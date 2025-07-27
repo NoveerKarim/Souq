@@ -1,0 +1,154 @@
+.souq {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-color: #198dfa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  padding: 0px;
+}
+.left-header img {
+  height: 100px;
+  width: auto;
+  margin-left: 30px;
+  padding-right: 50px;
+}
+.search-bar {
+  font-family: "Kanit", serif;
+  height: 40px;
+  width: 740px;
+  border-radius: 50px;
+  font-size: 15px;
+  padding-right: 0;
+  gap: 0;
+}
+.button {
+  font-family: "Kanit", serif;
+  height: 48px;
+  width: 100px;
+  font-size: 15px;
+  padding-left: 0;
+  gap: 0;
+  border-radius: 50px;
+  margin-left: -100px;
+}
+.links {
+  font-size: 25px;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-right: 10px;
+  font-family: "Kanit", serif;
+  color: black;
+  padding: 0;
+  border-radius: 10px;
+}
+.links:hover {
+  background-color: #4ba6fb;
+}
+
+.material-symbols-outlined {
+  margin-left: 4px;
+}
+.catogries {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  border: 2.5px solid black;
+  font-family: "Kanit", serif;
+  font-size: 17px;
+  background-color: white;
+}
+.catogries a {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin: 10px 30px 12px 30px;
+  padding: 20px;
+  color: black;
+}
+.catogries a:hover {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+.featured {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+
+.featured p {
+  font-family: "Kanit", serif;
+  font-size: 35px;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+.featured-cards {
+  margin-left: 40px;
+}
+.cards-images {
+  width: auto;
+  height: 200px;
+}
+.Samsung {
+  border: 2px solid black;
+  width: 205px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 20px;
+}
+.information {
+  padding-left: 25px;
+  padding-right: 7px;
+  font-family: "Kanit", serif;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.Samsung i {
+  margin-left: 117px;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-right: -100px;
+  text-decoration: none;
+}
+.featured-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+.iPhone {
+  border: 2px solid black;
+  width: 205px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.iPhone i {
+  margin-left: 117px;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-right: -100px;
+  text-decoration: none;
+}
+.iPhone-images {
+  margin-left: 25px;
+  width: auto;
+  height: 200px;
+}
+.information-iPhone {
+  padding-left: 25px;
+  padding-right: 7px;
+  font-family: "Kanit", serif;
+  font-size: 15px;
+  margin-bottom: 0;
+}
